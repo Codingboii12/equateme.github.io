@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:black;
+}
+
+h1{
+    padding: 20px 30px;
+    text-align: center;
+    font-family: Edu SA Beginner;
+    background: -webkit-linear-gradient(#85FFBD,#FFFB7D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2{
+    background: -webkit-linear-gradient(#0093E9,#80D0C7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Edu SA Beginner;
+}
+
+p{
+    color:white;
+    font-family: Edu SA Beginner;
+    font-size:150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3{
+    background: -webkit-linear-gradient(#ec77ab,#7873f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Edu SA Beginner; 
+}
+
+h4{
+    background: -webkit-linear-gradient(#FFFEFF,#D7FFFE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:Edu SA Beginner; 
+    font-size: 150%;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+p a{
+    opacity: 0.8;
+    transition-duration: 0.4s;
+    background: -webkit-linear-gradient(#b721ff,#21d4fd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+p a:hover{
+    background: -webkit-linear-gradient(#08AEEA,#2AF598);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 1;
+    font-weight: bold;
+}
+
+p{
+    background: -webkit-linear-gradient(#0acffe,#495aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

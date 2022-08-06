@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <h1>v = u + at</h1>
+        <p>v = Final Velocity(S.I Unit: Meter/Second)<br>
+           u = Initial Velocity(S.I Unit: Meter/Second)<br>
+           a = Acceleration(S.I Unit: Meter/Second<sup>2</sup>)<br>
+           t = Time(S.I Unit: Second)
+        </p>
+        <hr>
+        <h2>Kilometer/Hour to Meter/Second</h2>
+        <input type="number" placeholder="Kilometer/Hour" id="conversionInput"></input>
+        <input type="submit" onclick="conversion()"></input>
+        <h3 id="result"><h3>
+        <hr>
+        <h2>Acceleration</h2>
+        <h4>u</h4>
+        <input type="number" placeholder="Initial Velocity" id="ivacc"></input><br>
+        <h4>v</h4>
+        <input type="number" placeholder="Final Velocity" id="fvacc"></input><br>
+        <h4>t</h4>
+        <input type="number" placeholder="Time" id="tiacc"></input><br>
+        <input type="submit" onclick="accFinder()" style="margin-left:15px"></input>
+        <h3 id="acc" style="margin-left: 12px"></h3>
+        <hr>
+        <h4>u</h4>
+        <input type="number" placeholder="Initial Velocity" id="ivf"></input><br>
+        <h4>a</h4>
+        <input type="number" placeholder="Acceleration" id="accf"></input><br>
+        <h4>t</h4>
+        <input type="number" placeholder="Time" id="tif"></input><br>
+        <input type="submit" onclick="frst()" style="margin-left: 15px"></input>
+        <h3 id="answer" style="margin-left: 12px"></h3>
+        <p><a href="index.html">Go Back To Home</a></p>
+        <script src="script.js"></script>
+    </body>
+</html>
